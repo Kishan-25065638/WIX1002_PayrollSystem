@@ -1,15 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+//author:     Venkata Sai Bhargava Kishan Imandi (25065638)
+
 package payrollsystem;
-
-/**
- *
- * @author User
- */    
-
-
 public class FullTimeEmployee extends Employee {
     // 1. Three Attributes
     private double monthlySalary;
@@ -38,7 +29,7 @@ public class FullTimeEmployee extends Employee {
                "\n   Bonus: RM " + bonus + 
                "\n   Tax Rate: " + (taxRate * 100) + "%";
     }
-
+    
     // 4. Method 2 Set Bonus
     public void setBonus(double newBonus) {
         this.bonus = newBonus;
