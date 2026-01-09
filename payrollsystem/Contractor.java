@@ -51,4 +51,6 @@ public class Contractor extends Employee {
     public void completeProject() {
         this.isProjectCompleted = true;
     }
+
 }
+//Djasser
